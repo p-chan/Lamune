@@ -9,6 +9,4 @@ app.get('/', (req, res) => {
   res.send('Welcome to Lamune');
 });
 
-app.listen(3000, (err) => {
-  console.log('Server listening...');
-});
+module.exports = app;
